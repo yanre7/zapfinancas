@@ -1,0 +1,22 @@
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+!.env.example
+
+# Banco de dados local (histórico de gastos e número pessoal)
+*.db
+*.sqlite
+*.sqlite3
+
+# Ambiente virtual e arquivos compilados do Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configurações locais de IDE e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
